@@ -115,7 +115,7 @@ const config = {
                 docId: "build/building-modules/intro",
               },
               {
-                label: "Cosmos SDK API",
+                label: "REST API",
                 to: "api",
               },
             ],
@@ -123,7 +123,14 @@ const config = {
           {
             type: "doc",
             label: "User Guides",
-            docId: "user/run-node/keyring", // I find it weird that it points to the keyring and not a common page
+            docId: "user/user",
+            position: "left",
+          },
+          {
+            type: "doc",
+            label: "Tutorials",
+            collapsed: false,
+            docId: "tutorials/vote-extensions/auction-frontrunning/getting-started",
             position: "left",
           },
           {
@@ -178,7 +185,7 @@ const config = {
                 href: "https://ibc.cosmos.network",
               },
               {
-                label: "Cosmos SDK API",
+                label: "REST API",
                 to: "api",
               },
             ],

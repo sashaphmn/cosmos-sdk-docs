@@ -1,4 +1,4 @@
-## Prepare Proposal
+# Prepare Proposal
 
 `PrepareProposal` handles construction of the block, meaning that when a proposer
 is preparing to propose a block, it requests the application to evaluate a
@@ -33,7 +33,7 @@ https://github.com/cosmos/cosmos-sdk/blob/v0.50.0-alpha.0/baseapp/abci_utils.go
 ```
 
 This default implementation can be overridden by the application developer in
-favor of a custom implementation in [`app.go`](./01-app-go-v2.md):
+favor of a custom implementation in [`app.go`](../building-apps/01-app-go-v2.md):
 
 ```go
 prepareOpt := func(app *baseapp.BaseApp) {
